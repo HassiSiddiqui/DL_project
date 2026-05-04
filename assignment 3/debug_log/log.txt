@@ -1,0 +1,1535 @@
+{"name": "Proposed_SAM_PLIP", "EPOCH": 50, "epoch_step": "[100]", "device": "cpu", "isPar": false, "log_dir": "./debug_log", "train_show_freq": 40, "droprate": 0.0, "droprate_2": 0.0, "lr": 0.0001, "weight_decay": 0.0001, "lr_decay_ratio": 0.2, "batch_size": 1, "batch_size_v": 1, "num_workers": 4, "num_cls": 2, "mDATA0_dir_train0": "Dataset/mDATA_train_PCAM.pkl", "mDATA0_dir_val0": "Dataset/mDATA_test_PCAM.pkl", "mDATA_dir_test0": "Dataset/mDATA_test_PCAM.pkl", "numGroup": 5, "total_instance": 4, "numGroup_test": 4, "total_instance_test": 4, "mDim": 512, "grad_clipping": 5, "isSaveModel": true, "debug_DATA_dir": "", "numLayer_Res": 0, "temperature": 1, "num_MeanInference": 1, "distill_type": "AFS"}{"name": "Proposed_SAM_PLIP", "EPOCH": 50, "epoch_step": "[100]", "device": "cpu", "isPar": false, "log_dir": "./debug_log", "train_show_freq": 40, "droprate": 0.0, "droprate_2": 0.0, "lr": 0.0001, "weight_decay": 0.0001, "lr_decay_ratio": 0.2, "batch_size": 1, "batch_size_v": 1, "num_workers": 4, "num_cls": 2, "mDATA0_dir_train0": "Dataset/mDATA_train_PCAM.pkl", "mDATA0_dir_val0": "Dataset/mDATA_test_PCAM.pkl", "mDATA_dir_test0": "Dataset/mDATA_test_PCAM.pkl", "numGroup": 5, "total_instance": 4, "numGroup_test": 4, "total_instance_test": 4, "mDim": 512, "grad_clipping": 5, "isSaveModel": true, "debug_DATA_dir": "", "numLayer_Res": 0, "temperature": 1, "num_MeanInference": 1, "distill_type": "AFS"}
+training slides: 40, validation slides: 10, test slides: 10
+ current learn rate 0.0001{"name": "Proposed_SAM_PLIP", "EPOCH": 50, "epoch_step": "[100]", "device": "cpu", "isPar": false, "log_dir": "./debug_log", "train_show_freq": 40, "droprate": 0.0, "droprate_2": 0.0, "lr": 0.0001, "weight_decay": 0.0001, "lr_decay_ratio": 0.2, "batch_size": 1, "batch_size_v": 1, "num_workers": 4, "num_cls": 2, "mDATA0_dir_train0": "Dataset/mDATA_train_PCAM.pkl", "mDATA0_dir_val0": "Dataset/mDATA_test_PCAM.pkl", "mDATA_dir_test0": "Dataset/mDATA_test_PCAM.pkl", "numGroup": 5, "total_instance": 4, "numGroup_test": 4, "total_instance_test": 4, "mDim": 512, "grad_clipping": 5, "isSaveModel": true, "debug_DATA_dir": "", "numLayer_Res": 0, "temperature": 1, "num_MeanInference": 1, "distill_type": "AFS"}
+training slides: 40, validation slides: 10, test slides: 10
+ current learn rate 0.0001{"name": "Proposed_SAM_PLIP", "EPOCH": 50, "epoch_step": "[100]", "device": "cpu", "isPar": false, "log_dir": "./debug_log", "train_show_freq": 40, "droprate": 0.0, "droprate_2": 0.0, "lr": 0.0001, "weight_decay": 0.0001, "lr_decay_ratio": 0.2, "batch_size": 1, "batch_size_v": 1, "num_workers": 4, "num_cls": 2, "mDATA0_dir_train0": "Dataset/mDATA_train_PCAM.pkl", "mDATA0_dir_val0": "Dataset/mDATA_test_PCAM.pkl", "mDATA_dir_test0": "Dataset/mDATA_test_PCAM.pkl", "numGroup": 5, "total_instance": 4, "numGroup_test": 4, "total_instance_test": 4, "mDim": 512, "grad_clipping": 5, "isSaveModel": true, "debug_DATA_dir": "", "numLayer_Res": 0, "temperature": 1, "num_MeanInference": 1, "distill_type": "AFS"}
+training slides: 40, validation slides: 10, test slides: 10
+ current learn rate 0.0001
+epoch: 0 idx: 0 First Loss : 0.6663781404495239, Second Loss : 0.6960420608520508 
+>>>>>>>>>>> Validation Epoch: 0
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 0
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 1 idx: 0 First Loss : 0.04946253448724747, Second Loss : 0.048081424087285995 
+>>>>>>>>>>> Validation Epoch: 1
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 1
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 2 idx: 0 First Loss : 0.00912806298583746, Second Loss : 0.009193823672831059 
+>>>>>>>>>>> Validation Epoch: 2
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 2
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 3 idx: 0 First Loss : 0.0030804371926933527, Second Loss : 0.0030996394343674183 
+>>>>>>>>>>> Validation Epoch: 3
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 3
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 4 idx: 0 First Loss : 0.0012746963184326887, Second Loss : 0.001490435330197215 
+>>>>>>>>>>> Validation Epoch: 4
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 4
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 5 idx: 0 First Loss : 0.0006494215922430158, Second Loss : 0.000707971747033298 
+>>>>>>>>>>> Validation Epoch: 5
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 5
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 6 idx: 0 First Loss : 0.0005993412923999131, Second Loss : 0.0005723983631469309 
+>>>>>>>>>>> Validation Epoch: 6
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 6
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 7 idx: 0 First Loss : 0.0004048419650644064, Second Loss : 0.00032908268622122705 
+>>>>>>>>>>> Validation Epoch: 7
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 7
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 8 idx: 0 First Loss : 0.00016554092871956527, Second Loss : 0.0001793938863556832 
+>>>>>>>>>>> Validation Epoch: 8
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 8
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 9 idx: 0 First Loss : 0.00013383475015871227, Second Loss : 0.00011729506513802335 
+>>>>>>>>>>> Validation Epoch: 9
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 9
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 10 idx: 0 First Loss : 5.259371755528264e-05, Second Loss : 6.985420623095706e-05 
+>>>>>>>>>>> Validation Epoch: 10
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 10
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 11 idx: 0 First Loss : 4.5488803152693436e-05, Second Loss : 4.565611743601039e-05 
+>>>>>>>>>>> Validation Epoch: 11
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 11
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 12 idx: 0 First Loss : 6.725160346832126e-05, Second Loss : 3.564294092939235e-05 
+>>>>>>>>>>> Validation Epoch: 12
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 12
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 13 idx: 0 First Loss : 3.5022840165765956e-05, Second Loss : 3.349725011503324e-05 
+>>>>>>>>>>> Validation Epoch: 13
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 13
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 14 idx: 0 First Loss : 5.292530477163382e-05, Second Loss : 3.2066785934148356e-05 
+>>>>>>>>>>> Validation Epoch: 14
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 14
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 15 idx: 0 First Loss : 1.8477225239621475e-05, Second Loss : 2.2291887944447808e-05 
+>>>>>>>>>>> Validation Epoch: 15
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 15
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 16 idx: 0 First Loss : 2.021763430093415e-05, Second Loss : 2.169585604860913e-05 
+>>>>>>>>>>> Validation Epoch: 16
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 16
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 17 idx: 0 First Loss : 1.821490513975732e-05, Second Loss : 1.585470999998506e-05 
+>>>>>>>>>>> Validation Epoch: 17
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 17
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 18 idx: 0 First Loss : 1.8381855625193566e-05, Second Loss : 1.9907753085135482e-05 
+>>>>>>>>>>> Validation Epoch: 18
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 18
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 19 idx: 0 First Loss : 1.5067863387230318e-05, Second Loss : 1.3112935448589269e-05 
+>>>>>>>>>>> Validation Epoch: 19
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 19
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 20 idx: 0 First Loss : 2.6797421014634892e-05, Second Loss : 1.2278481335670222e-05 
+>>>>>>>>>>> Validation Epoch: 20
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 20
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 21 idx: 0 First Loss : 1.2588386198331136e-05, Second Loss : 1.1920858014491387e-05 
+>>>>>>>>>>> Validation Epoch: 21
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 21
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 22 idx: 0 First Loss : 1.714205791358836e-05, Second Loss : 1.680836794548668e-05 
+>>>>>>>>>>> Validation Epoch: 22
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 22
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 23 idx: 0 First Loss : 1.0514181667531375e-05, Second Loss : 1.0371154530730564e-05 
+>>>>>>>>>>> Validation Epoch: 23
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 23
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 24 idx: 0 First Loss : 1.1587037988647353e-05, Second Loss : 9.894321920000948e-06 
+>>>>>>>>>>> Validation Epoch: 24
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 24
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 25 idx: 0 First Loss : 1.671273639658466e-05, Second Loss : 8.583032467868179e-06 
+>>>>>>>>>>> Validation Epoch: 25
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 25
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 26 idx: 0 First Loss : 6.818737347202841e-06, Second Loss : 6.6756979322235566e-06 
+>>>>>>>>>>> Validation Epoch: 26
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 26
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 27 idx: 0 First Loss : 1.1610874025791418e-05, Second Loss : 9.894321920000948e-06 
+>>>>>>>>>>> Validation Epoch: 27
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 27
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 28 idx: 0 First Loss : 8.201555829145946e-06, Second Loss : 8.106198947643861e-06 
+>>>>>>>>>>> Validation Epoch: 28
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 28
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 29 idx: 0 First Loss : 1.2802845049009193e-05, Second Loss : 6.9141146923357155e-06 
+>>>>>>>>>>> Validation Epoch: 29
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 29
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 30 idx: 0 First Loss : 6.103493888076628e-06, Second Loss : 6.794906312279636e-06 
+>>>>>>>>>>> Validation Epoch: 30
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 30
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 31 idx: 0 First Loss : 4.935249762638705e-06, Second Loss : 5.245195097813848e-06 
+>>>>>>>>>>> Validation Epoch: 31
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 31
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 32 idx: 0 First Loss : 6.771051175746834e-06, Second Loss : 6.318072337307967e-06 
+>>>>>>>>>>> Validation Epoch: 32
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 32
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 33 idx: 0 First Loss : 6.651843250438105e-06, Second Loss : 6.198863957251888e-06 
+>>>>>>>>>>> Validation Epoch: 33
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 33
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 34 idx: 0 First Loss : 6.270382527873153e-06, Second Loss : 6.318072337307967e-06 
+>>>>>>>>>>> Validation Epoch: 34
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 34
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 35 idx: 0 First Loss : 4.100789283256745e-06, Second Loss : 4.172316494077677e-06 
+>>>>>>>>>>> Validation Epoch: 35
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 35
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 36 idx: 0 First Loss : 6.031964403518941e-06, Second Loss : 5.483612312673358e-06 
+>>>>>>>>>>> Validation Epoch: 36
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 36
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 37 idx: 0 First Loss : 5.912754204473458e-06, Second Loss : 5.602820692729438e-06 
+>>>>>>>>>>> Validation Epoch: 37
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 37
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 38 idx: 0 First Loss : 9.846587090578396e-06, Second Loss : 8.106198947643861e-06 
+>>>>>>>>>>> Validation Epoch: 38
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 38
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 39 idx: 0 First Loss : 1.165854700957425e-05, Second Loss : 8.940656698541716e-06 
+>>>>>>>>>>> Validation Epoch: 39
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 39
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 40 idx: 0 First Loss : 9.059823241841514e-06, Second Loss : 6.198863957251888e-06 
+>>>>>>>>>>> Validation Epoch: 40
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 40
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 41 idx: 0 First Loss : 4.076946879649768e-06, Second Loss : 4.172316494077677e-06 
+>>>>>>>>>>> Validation Epoch: 41
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 41
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ test auc: 0, from epoch -1
+ current learn rate 0.0001
+epoch: 42 idx: 0 First Loss : 8.726043233764358e-06, Second Loss : 6.079655122448457e-06 
+>>>>>>>>>>> Validation Epoch: 42
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 42
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ test auc: 0, from epoch -1
+ current learn rate 0.0001
+epoch: 43 idx: 0 First Loss : 6.389583177224267e-06, Second Loss : 6.079655122448457e-06 
+>>>>>>>>>>> Validation Epoch: 43
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 43
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ test auc: 0, from epoch -1
+ current learn rate 0.0001
+epoch: 44 idx: 0 First Loss : 3.5762709558184724e-06, Second Loss : 3.6954811548639555e-06 
+>>>>>>>>>>> Validation Epoch: 44
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 44
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ test auc: 0, from epoch -1
+ current learn rate 0.0001
+epoch: 45 idx: 0 First Loss : 5.0782969083229546e-06, Second Loss : 4.887569048150908e-06 
+>>>>>>>>>>> Validation Epoch: 45
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 45
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ test auc: 0, from epoch -1
+ current learn rate 0.0001
+epoch: 46 idx: 0 First Loss : 5.221350420470117e-06, Second Loss : 5.602820692729438e-06 
+>>>>>>>>>>> Validation Epoch: 46
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 46
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ test auc: 0, from epoch -1
+ current learn rate 0.0001
+epoch: 47 idx: 0 First Loss : 4.911409178021131e-06, Second Loss : 5.483612312673358e-06 
+>>>>>>>>>>> Validation Epoch: 47
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 47
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ test auc: 0, from epoch -1
+ current learn rate 0.0001
+epoch: 48 idx: 0 First Loss : 6.91411196385161e-06, Second Loss : 8.583032467868179e-06 
+>>>>>>>>>>> Validation Epoch: 48
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 48
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ test auc: 0, from epoch -1
+ current learn rate 0.0001
+epoch: 49 idx: 0 First Loss : 8.296917258121539e-06, Second Loss : 8.702239938429557e-06 
+>>>>>>>>>>> Validation Epoch: 49
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 49
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ test auc: 0, from epoch -1{"name": "Proposed_SAM_PLIP", "EPOCH": 50, "epoch_step": "[100]", "device": "cpu", "isPar": false, "log_dir": "./debug_log", "train_show_freq": 40, "droprate": 0.0, "droprate_2": 0.0, "lr": 0.0001, "weight_decay": 0.0001, "lr_decay_ratio": 0.2, "batch_size": 1, "batch_size_v": 1, "num_workers": 4, "num_cls": 2, "mDATA0_dir_train0": "Dataset/mDATA_train_PCAM.pkl", "mDATA0_dir_val0": "Dataset/mDATA_test_PCAM.pkl", "mDATA_dir_test0": "Dataset/mDATA_test_PCAM.pkl", "numGroup": 5, "total_instance": 4, "numGroup_test": 4, "total_instance_test": 4, "mDim": 512, "grad_clipping": 5, "isSaveModel": true, "debug_DATA_dir": "", "numLayer_Res": 0, "temperature": 1, "num_MeanInference": 1, "distill_type": "AFS"}
+training slides: 40, validation slides: 10, test slides: 10
+ current learn rate 0.0001
+epoch: 0 idx: 0 First Loss : 0.6721367239952087, Second Loss : 0.6984642148017883 
+>>>>>>>>>>> Validation Epoch: 0
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 0
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 1 idx: 0 First Loss : 0.05477491766214371, Second Loss : 0.05518682301044464 
+>>>>>>>>>>> Validation Epoch: 1
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 1
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 2 idx: 0 First Loss : 0.00834818184375763, Second Loss : 0.009606561623513699 
+>>>>>>>>>>> Validation Epoch: 2
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 2
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 3 idx: 0 First Loss : 0.0030855995137244463, Second Loss : 0.0032995089422911406 
+>>>>>>>>>>> Validation Epoch: 3
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 3
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 4 idx: 0 First Loss : 0.0023629863280802965, Second Loss : 0.001602914067916572 
+>>>>>>>>>>> Validation Epoch: 4
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 4
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 5 idx: 0 First Loss : 0.0011597602861002088, Second Loss : 0.0005833592731505632 
+>>>>>>>>>>> Validation Epoch: 5
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 5
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 6 idx: 0 First Loss : 0.000657294353004545, Second Loss : 0.0006059955921955407 
+>>>>>>>>>>> Validation Epoch: 6
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 6
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 7 idx: 0 First Loss : 0.0003346925659570843, Second Loss : 0.0003337303060106933 
+>>>>>>>>>>> Validation Epoch: 7
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 7
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 8 idx: 0 First Loss : 0.0001975532650249079, Second Loss : 0.00020549570035655051 
+>>>>>>>>>>> Validation Epoch: 8
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 8
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 9 idx: 0 First Loss : 0.00013607482833322138, Second Loss : 0.00011288482346571982 
+>>>>>>>>>>> Validation Epoch: 9
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 9
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 10 idx: 0 First Loss : 0.00012014971434837207, Second Loss : 8.237022848334163e-05 
+>>>>>>>>>>> Validation Epoch: 10
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 10
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 11 idx: 0 First Loss : 3.237670171074569e-05, Second Loss : 4.124556289752945e-05 
+>>>>>>>>>>> Validation Epoch: 11
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 11
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 12 idx: 0 First Loss : 7.359571463894099e-05, Second Loss : 5.817244164063595e-05 
+>>>>>>>>>>> Validation Epoch: 12
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 12
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 13 idx: 0 First Loss : 3.38069730787538e-05, Second Loss : 3.361645576660521e-05 
+>>>>>>>>>>> Validation Epoch: 13
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 13
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 14 idx: 0 First Loss : 2.1433541405713186e-05, Second Loss : 2.3007127310847864e-05 
+>>>>>>>>>>> Validation Epoch: 14
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 14
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 15 idx: 0 First Loss : 3.356833622092381e-05, Second Loss : 2.47952248173533e-05 
+>>>>>>>>>>> Validation Epoch: 15
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 15
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 16 idx: 0 First Loss : 3.507035580696538e-05, Second Loss : 2.52720492426306e-05 
+>>>>>>>>>>> Validation Epoch: 16
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 16
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 17 idx: 0 First Loss : 1.478181638958631e-05, Second Loss : 1.6212332411669195e-05 
+>>>>>>>>>>> Validation Epoch: 17
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 17
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 18 idx: 0 First Loss : 1.6689065887476318e-05, Second Loss : 1.3589766240329482e-05 
+>>>>>>>>>>> Validation Epoch: 18
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 18
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 19 idx: 0 First Loss : 1.2326147043495439e-05, Second Loss : 1.3351351299206726e-05 
+>>>>>>>>>>> Validation Epoch: 19
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 19
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 20 idx: 0 First Loss : 9.655889698478859e-06, Second Loss : 1.0013530300057027e-05 
+>>>>>>>>>>> Validation Epoch: 20
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 20
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 21 idx: 0 First Loss : 9.894310096569825e-06, Second Loss : 1.1205610462639015e-05 
+>>>>>>>>>>> Validation Epoch: 21
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 21
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 22 idx: 0 First Loss : 1.769040318322368e-05, Second Loss : 1.680836794548668e-05 
+>>>>>>>>>>> Validation Epoch: 22
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 22
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 23 idx: 0 First Loss : 1.2230744687258266e-05, Second Loss : 1.0371154530730564e-05 
+>>>>>>>>>>> Validation Epoch: 23
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 23
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 24 idx: 0 First Loss : 1.2445323591236956e-05, Second Loss : 1.0251946150674485e-05 
+>>>>>>>>>>> Validation Epoch: 24
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 24
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 25 idx: 0 First Loss : 1.5830815755180083e-05, Second Loss : 1.6093124941107817e-05 
+>>>>>>>>>>> Validation Epoch: 25
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 25
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 26 idx: 0 First Loss : 5.483611857926007e-06, Second Loss : 6.556489552167477e-06 
+>>>>>>>>>>> Validation Epoch: 26
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 26
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 27 idx: 0 First Loss : 1.928760320879519e-05, Second Loss : 1.2993727978027891e-05 
+>>>>>>>>>>> Validation Epoch: 27
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 27
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 28 idx: 0 First Loss : 1.4066527000977658e-05, Second Loss : 1.2040065485052764e-05 
+>>>>>>>>>>> Validation Epoch: 28
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 28
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 29 idx: 0 First Loss : 1.3232110177341383e-05, Second Loss : 1.3828182090946939e-05 
+>>>>>>>>>>> Validation Epoch: 29
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 29
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 30 idx: 0 First Loss : 1.8262537196278572e-05, Second Loss : 1.3470558769768104e-05 
+>>>>>>>>>>> Validation Epoch: 30
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 30
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 31 idx: 0 First Loss : 8.392284144065343e-06, Second Loss : 8.106198947643861e-06 
+>>>>>>>>>>> Validation Epoch: 31
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 31
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 32 idx: 0 First Loss : 6.628010396525497e-06, Second Loss : 7.033323527139146e-06 
+>>>>>>>>>>> Validation Epoch: 32
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 32
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 33 idx: 0 First Loss : 6.246543307497632e-06, Second Loss : 6.6756979322235566e-06 
+>>>>>>>>>>> Validation Epoch: 33
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 33
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 34 idx: 0 First Loss : 5.125983989273664e-06, Second Loss : 5.960446742392378e-06 
+>>>>>>>>>>> Validation Epoch: 34
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 34
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 35 idx: 0 First Loss : 5.960441740171518e-06, Second Loss : 6.198863957251888e-06 
+>>>>>>>>>>> Validation Epoch: 35
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 35
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 36 idx: 0 First Loss : 5.173666977498215e-06, Second Loss : 5.483612312673358e-06 
+>>>>>>>>>>> Validation Epoch: 36
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 36
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 37 idx: 0 First Loss : 4.982933205610607e-06, Second Loss : 5.483612312673358e-06 
+>>>>>>>>>>> Validation Epoch: 37
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 37
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 38 idx: 0 First Loss : 4.553783583105542e-06, Second Loss : 5.125986263010418e-06 
+>>>>>>>>>>> Validation Epoch: 38
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 38
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 39 idx: 0 First Loss : 1.2159213838458527e-05, Second Loss : 9.059865078597795e-06 
+>>>>>>>>>>> Validation Epoch: 39
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 39
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 40 idx: 0 First Loss : 4.005422852060292e-06, Second Loss : 4.410734163684538e-06 
+>>>>>>>>>>> Validation Epoch: 40
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 40
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ current learn rate 0.0001
+epoch: 41 idx: 0 First Loss : 3.1232787023327546e-06, Second Loss : 3.6954811548639555e-06 
+>>>>>>>>>>> Validation Epoch: 41
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 41
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ test auc: 0, from epoch -1
+ current learn rate 0.0001
+epoch: 42 idx: 0 First Loss : 3.814688625425333e-06, Second Loss : 4.172316494077677e-06 
+>>>>>>>>>>> Validation Epoch: 42
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 42
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ test auc: 0, from epoch -1
+ current learn rate 0.0001
+epoch: 43 idx: 0 First Loss : 6.961794952076161e-06, Second Loss : 8.583032467868179e-06 
+>>>>>>>>>>> Validation Epoch: 43
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 43
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ test auc: 0, from epoch -1
+ current learn rate 0.0001
+epoch: 44 idx: 0 First Loss : 4.8637243708071765e-06, Second Loss : 5.125986263010418e-06 
+>>>>>>>>>>> Validation Epoch: 44
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 44
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ test auc: 0, from epoch -1
+ current learn rate 0.0001
+epoch: 45 idx: 0 First Loss : 4.339207407610957e-06, Second Loss : 4.768360213347478e-06 
+>>>>>>>>>>> Validation Epoch: 45
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 45
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ test auc: 0, from epoch -1
+ current learn rate 0.0001
+epoch: 46 idx: 0 First Loss : 4.0292643461725675e-06, Second Loss : 4.410734163684538e-06 
+>>>>>>>>>>> Validation Epoch: 46
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 46
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ test auc: 0, from epoch -1
+ current learn rate 0.0001
+epoch: 47 idx: 0 First Loss : 6.103490704845171e-06, Second Loss : 6.556489552167477e-06 
+>>>>>>>>>>> Validation Epoch: 47
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 47
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ test auc: 0, from epoch -1
+ current learn rate 0.0001
+epoch: 48 idx: 0 First Loss : 4.982933660357958e-06, Second Loss : 5.125986263010418e-06 
+>>>>>>>>>>> Validation Epoch: 48
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 48
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ test auc: 0, from epoch -1
+ current learn rate 0.0001
+epoch: 49 idx: 0 First Loss : 4.792200797965052e-06, Second Loss : 5.364403477869928e-06 
+>>>>>>>>>>> Validation Epoch: 49
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+>>>>>>>>>>> Test Epoch: 49
+  First-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+  Second-Tier acc 1.0, precision 0.0, recall 0.0, specificity 1.0, F1 0.0, AUC nan
+ 
+ test auc: 0, from epoch -1{"name": "Proposed_SAM_PLIP", "EPOCH": 50, "epoch_step": "[100]", "device": "cpu", "isPar": false, "log_dir": "./debug_log", "train_show_freq": 40, "droprate": 0.0, "droprate_2": 0.0, "lr": 0.0001, "weight_decay": 0.0001, "lr_decay_ratio": 0.2, "batch_size": 1, "batch_size_v": 1, "num_workers": 4, "num_cls": 2, "mDATA0_dir_train0": "Dataset/mDATA_train_PCAM.pkl", "mDATA0_dir_val0": "Dataset/mDATA_test_PCAM.pkl", "mDATA_dir_test0": "Dataset/mDATA_test_PCAM.pkl", "numGroup": 5, "total_instance": 4, "numGroup_test": 4, "total_instance_test": 4, "mDim": 512, "grad_clipping": 5, "isSaveModel": true, "debug_DATA_dir": "", "numLayer_Res": 0, "temperature": 1, "num_MeanInference": 1, "distill_type": "AFS"}
+training slides: 40, validation slides: 10, test slides: 10
+ current learn rate 0.0001
+epoch: 0 idx: 0 First Loss : 0.7151205539703369, Second Loss : 0.6878583431243896 
+>>>>>>>>>>> Validation Epoch: 0
+  First-Tier acc 0.5249999761581421, precision 0.5555555820465088, recall 0.25, specificity 0.800000011920929, F1 0.3448275923728943, AUC 0.515
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.64
+ 
+>>>>>>>>>>> Test Epoch: 0
+  First-Tier acc 0.5249999761581421, precision 0.5555555820465088, recall 0.25, specificity 0.800000011920929, F1 0.3448275923728943, AUC 0.515
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.64
+ 
+ current learn rate 0.0001
+epoch: 1 idx: 0 First Loss : 0.7680819630622864, Second Loss : 0.7680256962776184 
+>>>>>>>>>>> Validation Epoch: 1
+  First-Tier acc 0.625, precision 0.5862069129943848, recall 0.8500000238418579, specificity 0.4000000059604645, F1 0.6938775777816772, AUC 0.61
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.8400000000000001
+ 
+>>>>>>>>>>> Test Epoch: 1
+  First-Tier acc 0.625, precision 0.5862069129943848, recall 0.8500000238418579, specificity 0.4000000059604645, F1 0.6938775777816772, AUC 0.61
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.8400000000000001
+ 
+ current learn rate 0.0001
+epoch: 2 idx: 0 First Loss : 0.7455205321311951, Second Loss : 0.7441114187240601 
+>>>>>>>>>>> Validation Epoch: 2
+  First-Tier acc 0.574999988079071, precision 0.5555555820465088, recall 0.75, specificity 0.4000000059604645, F1 0.6382979154586792, AUC 0.605
+  Second-Tier acc 0.800000011920929, precision 0.800000011920929, recall 0.800000011920929, specificity 0.800000011920929, F1 0.8000000715255737, AUC 0.8800000000000001
+ 
+>>>>>>>>>>> Test Epoch: 2
+  First-Tier acc 0.574999988079071, precision 0.5555555820465088, recall 0.75, specificity 0.4000000059604645, F1 0.6382979154586792, AUC 0.605
+  Second-Tier acc 0.800000011920929, precision 0.800000011920929, recall 0.800000011920929, specificity 0.800000011920929, F1 0.8000000715255737, AUC 0.8800000000000001
+ 
+ current learn rate 0.0001
+epoch: 3 idx: 0 First Loss : 0.7097555994987488, Second Loss : 0.7103620767593384 
+>>>>>>>>>>> Validation Epoch: 3
+  First-Tier acc 0.6000000238418579, precision 0.6000000238418579, recall 0.6000000238418579, specificity 0.6000000238418579, F1 0.6000000238418579, AUC 0.605
+  Second-Tier acc 0.800000011920929, precision 0.800000011920929, recall 0.800000011920929, specificity 0.800000011920929, F1 0.8000000715255737, AUC 0.8800000000000001
+ 
+>>>>>>>>>>> Test Epoch: 3
+  First-Tier acc 0.6000000238418579, precision 0.6000000238418579, recall 0.6000000238418579, specificity 0.6000000238418579, F1 0.6000000238418579, AUC 0.605
+  Second-Tier acc 0.800000011920929, precision 0.800000011920929, recall 0.800000011920929, specificity 0.800000011920929, F1 0.8000000715255737, AUC 0.8800000000000001
+ 
+ current learn rate 0.0001
+epoch: 4 idx: 0 First Loss : 0.6085118055343628, Second Loss : 0.5714403986930847 
+>>>>>>>>>>> Validation Epoch: 4
+  First-Tier acc 0.6000000238418579, precision 0.5666666626930237, recall 0.8500000238418579, specificity 0.3499999940395355, F1 0.6800000071525574, AUC 0.61
+  Second-Tier acc 0.800000011920929, precision 0.800000011920929, recall 0.800000011920929, specificity 0.800000011920929, F1 0.8000000715255737, AUC 0.8800000000000001
+ 
+>>>>>>>>>>> Test Epoch: 4
+  First-Tier acc 0.6000000238418579, precision 0.5666666626930237, recall 0.8500000238418579, specificity 0.3499999940395355, F1 0.6800000071525574, AUC 0.61
+  Second-Tier acc 0.800000011920929, precision 0.800000011920929, recall 0.800000011920929, specificity 0.800000011920929, F1 0.8000000715255737, AUC 0.8800000000000001
+ 
+ current learn rate 0.0001
+epoch: 5 idx: 0 First Loss : 0.633515477180481, Second Loss : 0.6383193135261536 
+>>>>>>>>>>> Validation Epoch: 5
+  First-Tier acc 0.6000000238418579, precision 0.5588235259056091, recall 0.949999988079071, specificity 0.25, F1 0.7037037014961243, AUC 0.6075
+  Second-Tier acc 0.800000011920929, precision 0.800000011920929, recall 0.800000011920929, specificity 0.800000011920929, F1 0.8000000715255737, AUC 0.8800000000000001
+ 
+>>>>>>>>>>> Test Epoch: 5
+  First-Tier acc 0.6000000238418579, precision 0.5588235259056091, recall 0.949999988079071, specificity 0.25, F1 0.7037037014961243, AUC 0.6075
+  Second-Tier acc 0.800000011920929, precision 0.800000011920929, recall 0.800000011920929, specificity 0.800000011920929, F1 0.8000000715255737, AUC 0.8800000000000001
+ 
+ current learn rate 0.0001
+epoch: 6 idx: 0 First Loss : 0.613999605178833, Second Loss : 0.5994365215301514 
+>>>>>>>>>>> Validation Epoch: 6
+  First-Tier acc 0.6000000238418579, precision 0.5769230723381042, recall 0.75, specificity 0.44999998807907104, F1 0.6521738767623901, AUC 0.61
+  Second-Tier acc 0.800000011920929, precision 0.800000011920929, recall 0.800000011920929, specificity 0.800000011920929, F1 0.8000000715255737, AUC 0.8800000000000001
+ 
+>>>>>>>>>>> Test Epoch: 6
+  First-Tier acc 0.6000000238418579, precision 0.5769230723381042, recall 0.75, specificity 0.44999998807907104, F1 0.6521738767623901, AUC 0.61
+  Second-Tier acc 0.800000011920929, precision 0.800000011920929, recall 0.800000011920929, specificity 0.800000011920929, F1 0.8000000715255737, AUC 0.8800000000000001
+ 
+ current learn rate 0.0001
+epoch: 7 idx: 0 First Loss : 0.7050144076347351, Second Loss : 0.6838157176971436 
+>>>>>>>>>>> Validation Epoch: 7
+  First-Tier acc 0.6000000238418579, precision 0.5769230723381042, recall 0.75, specificity 0.44999998807907104, F1 0.6521738767623901, AUC 0.625
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.8400000000000001
+ 
+>>>>>>>>>>> Test Epoch: 7
+  First-Tier acc 0.6000000238418579, precision 0.5769230723381042, recall 0.75, specificity 0.44999998807907104, F1 0.6521738767623901, AUC 0.625
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.8400000000000001
+ 
+ current learn rate 0.0001
+epoch: 8 idx: 0 First Loss : 0.6754083633422852, Second Loss : 0.6453931927680969 
+>>>>>>>>>>> Validation Epoch: 8
+  First-Tier acc 0.6000000238418579, precision 0.5666666626930237, recall 0.8500000238418579, specificity 0.3499999940395355, F1 0.6800000071525574, AUC 0.6074999999999999
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7200000000000002
+ 
+>>>>>>>>>>> Test Epoch: 8
+  First-Tier acc 0.6000000238418579, precision 0.5666666626930237, recall 0.8500000238418579, specificity 0.3499999940395355, F1 0.6800000071525574, AUC 0.6074999999999999
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7200000000000002
+ 
+ current learn rate 0.0001
+epoch: 9 idx: 0 First Loss : 0.649010956287384, Second Loss : 0.5970775485038757 
+>>>>>>>>>>> Validation Epoch: 9
+  First-Tier acc 0.6000000238418579, precision 0.5625, recall 0.8999999761581421, specificity 0.30000001192092896, F1 0.6923076510429382, AUC 0.6125
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7600000000000001
+ 
+>>>>>>>>>>> Test Epoch: 9
+  First-Tier acc 0.6000000238418579, precision 0.5625, recall 0.8999999761581421, specificity 0.30000001192092896, F1 0.6923076510429382, AUC 0.6125
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7600000000000001
+ 
+ current learn rate 0.0001
+epoch: 10 idx: 0 First Loss : 0.6527366638183594, Second Loss : 0.6295376420021057 
+>>>>>>>>>>> Validation Epoch: 10
+  First-Tier acc 0.6000000238418579, precision 0.5666666626930237, recall 0.8500000238418579, specificity 0.3499999940395355, F1 0.6800000071525574, AUC 0.6275
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7600000000000001
+ 
+>>>>>>>>>>> Test Epoch: 10
+  First-Tier acc 0.6000000238418579, precision 0.5666666626930237, recall 0.8500000238418579, specificity 0.3499999940395355, F1 0.6800000071525574, AUC 0.6275
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7600000000000001
+ 
+ current learn rate 0.0001
+epoch: 11 idx: 0 First Loss : 0.6472795009613037, Second Loss : 0.5422750115394592 
+>>>>>>>>>>> Validation Epoch: 11
+  First-Tier acc 0.6000000238418579, precision 0.5769230723381042, recall 0.75, specificity 0.44999998807907104, F1 0.6521738767623901, AUC 0.6325000000000001
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7200000000000002
+ 
+>>>>>>>>>>> Test Epoch: 11
+  First-Tier acc 0.6000000238418579, precision 0.5769230723381042, recall 0.75, specificity 0.44999998807907104, F1 0.6521738767623901, AUC 0.6325000000000001
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7200000000000002
+ 
+ current learn rate 0.0001
+epoch: 12 idx: 0 First Loss : 0.6635215878486633, Second Loss : 0.5656974911689758 
+>>>>>>>>>>> Validation Epoch: 12
+  First-Tier acc 0.6000000238418579, precision 0.5588235259056091, recall 0.949999988079071, specificity 0.25, F1 0.7037037014961243, AUC 0.6174999999999999
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7200000000000002
+ 
+>>>>>>>>>>> Test Epoch: 12
+  First-Tier acc 0.6000000238418579, precision 0.5588235259056091, recall 0.949999988079071, specificity 0.25, F1 0.7037037014961243, AUC 0.6174999999999999
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7200000000000002
+ 
+ current learn rate 0.0001
+epoch: 13 idx: 0 First Loss : 0.7244299650192261, Second Loss : 0.5722588300704956 
+>>>>>>>>>>> Validation Epoch: 13
+  First-Tier acc 0.6000000238418579, precision 0.5588235259056091, recall 0.949999988079071, specificity 0.25, F1 0.7037037014961243, AUC 0.6174999999999999
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7200000000000002
+ 
+>>>>>>>>>>> Test Epoch: 13
+  First-Tier acc 0.6000000238418579, precision 0.5588235259056091, recall 0.949999988079071, specificity 0.25, F1 0.7037037014961243, AUC 0.6174999999999999
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7200000000000002
+ 
+ current learn rate 0.0001
+epoch: 14 idx: 0 First Loss : 0.591987669467926, Second Loss : 0.18041402101516724 
+>>>>>>>>>>> Validation Epoch: 14
+  First-Tier acc 0.6000000238418579, precision 0.5833333134651184, recall 0.699999988079071, specificity 0.5, F1 0.6363636255264282, AUC 0.6074999999999999
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6400000000000001
+ 
+>>>>>>>>>>> Test Epoch: 14
+  First-Tier acc 0.6000000238418579, precision 0.5833333134651184, recall 0.699999988079071, specificity 0.5, F1 0.6363636255264282, AUC 0.6074999999999999
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6400000000000001
+ 
+ current learn rate 0.0001
+epoch: 15 idx: 0 First Loss : 0.6218881607055664, Second Loss : 0.3409649133682251 
+>>>>>>>>>>> Validation Epoch: 15
+  First-Tier acc 0.6000000238418579, precision 0.5833333134651184, recall 0.699999988079071, specificity 0.5, F1 0.6363636255264282, AUC 0.615
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6400000000000001
+ 
+>>>>>>>>>>> Test Epoch: 15
+  First-Tier acc 0.6000000238418579, precision 0.5833333134651184, recall 0.699999988079071, specificity 0.5, F1 0.6363636255264282, AUC 0.615
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6400000000000001
+ 
+ current learn rate 0.0001
+epoch: 16 idx: 0 First Loss : 0.6346029043197632, Second Loss : 0.715090274810791 
+>>>>>>>>>>> Validation Epoch: 16
+  First-Tier acc 0.574999988079071, precision 0.5483871102333069, recall 0.8500000238418579, specificity 0.30000001192092896, F1 0.6666666865348816, AUC 0.6074999999999999
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6400000000000001
+ 
+>>>>>>>>>>> Test Epoch: 16
+  First-Tier acc 0.574999988079071, precision 0.5483871102333069, recall 0.8500000238418579, specificity 0.30000001192092896, F1 0.6666666865348816, AUC 0.6074999999999999
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6400000000000001
+ 
+ current learn rate 0.0001
+epoch: 17 idx: 0 First Loss : 0.6494629979133606, Second Loss : 0.971720814704895 
+>>>>>>>>>>> Validation Epoch: 17
+  First-Tier acc 0.6000000238418579, precision 0.5666666626930237, recall 0.8500000238418579, specificity 0.3499999940395355, F1 0.6800000071525574, AUC 0.5825
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6400000000000001
+ 
+>>>>>>>>>>> Test Epoch: 17
+  First-Tier acc 0.6000000238418579, precision 0.5666666626930237, recall 0.8500000238418579, specificity 0.3499999940395355, F1 0.6800000071525574, AUC 0.5825
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6400000000000001
+ 
+ current learn rate 0.0001
+epoch: 18 idx: 0 First Loss : 0.6155301332473755, Second Loss : 0.6007744669914246 
+>>>>>>>>>>> Validation Epoch: 18
+  First-Tier acc 0.6000000238418579, precision 0.5625, recall 0.8999999761581421, specificity 0.30000001192092896, F1 0.6923076510429382, AUC 0.605
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+>>>>>>>>>>> Test Epoch: 18
+  First-Tier acc 0.6000000238418579, precision 0.5625, recall 0.8999999761581421, specificity 0.30000001192092896, F1 0.6923076510429382, AUC 0.605
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+ current learn rate 0.0001
+epoch: 19 idx: 0 First Loss : 0.716805100440979, Second Loss : 0.7781960964202881 
+>>>>>>>>>>> Validation Epoch: 19
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.59
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.64
+ 
+>>>>>>>>>>> Test Epoch: 19
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.59
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.64
+ 
+ current learn rate 0.0001
+epoch: 20 idx: 0 First Loss : 0.5373821258544922, Second Loss : 0.09131565690040588 
+>>>>>>>>>>> Validation Epoch: 20
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.6074999999999999
+  Second-Tier acc 0.6000000238418579, precision 0.6000000238418579, recall 0.6000000238418579, specificity 0.6000000238418579, F1 0.6000000238418579, AUC 0.6
+ 
+>>>>>>>>>>> Test Epoch: 20
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.6074999999999999
+  Second-Tier acc 0.6000000238418579, precision 0.6000000238418579, recall 0.6000000238418579, specificity 0.6000000238418579, F1 0.6000000238418579, AUC 0.6
+ 
+ current learn rate 0.0001
+epoch: 21 idx: 0 First Loss : 0.6639309525489807, Second Loss : 0.04376276582479477 
+>>>>>>>>>>> Validation Epoch: 21
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.585
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7200000000000002
+ 
+>>>>>>>>>>> Test Epoch: 21
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.585
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7200000000000002
+ 
+ current learn rate 0.0001
+epoch: 22 idx: 0 First Loss : 0.5895435214042664, Second Loss : 0.1164608970284462 
+>>>>>>>>>>> Validation Epoch: 22
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5900000000000001
+  Second-Tier acc 0.6000000238418579, precision 0.6000000238418579, recall 0.6000000238418579, specificity 0.6000000238418579, F1 0.6000000238418579, AUC 0.64
+ 
+>>>>>>>>>>> Test Epoch: 22
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5900000000000001
+  Second-Tier acc 0.6000000238418579, precision 0.6000000238418579, recall 0.6000000238418579, specificity 0.6000000238418579, F1 0.6000000238418579, AUC 0.64
+ 
+ current learn rate 0.0001
+epoch: 23 idx: 0 First Loss : 0.6249356269836426, Second Loss : 0.10784196108579636 
+>>>>>>>>>>> Validation Epoch: 23
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5725
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7200000000000002
+ 
+>>>>>>>>>>> Test Epoch: 23
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5725
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7200000000000002
+ 
+ current learn rate 0.0001
+epoch: 24 idx: 0 First Loss : 0.46503931283950806, Second Loss : 0.015443149954080582 
+>>>>>>>>>>> Validation Epoch: 24
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5974999999999999
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+>>>>>>>>>>> Test Epoch: 24
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5974999999999999
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+ current learn rate 0.0001
+epoch: 25 idx: 0 First Loss : 0.5424219965934753, Second Loss : 0.04027191549539566 
+>>>>>>>>>>> Validation Epoch: 25
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5874999999999999
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7200000000000002
+ 
+>>>>>>>>>>> Test Epoch: 25
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5874999999999999
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7200000000000002
+ 
+ current learn rate 0.0001
+epoch: 26 idx: 0 First Loss : 0.4717939496040344, Second Loss : 0.028437579050660133 
+>>>>>>>>>>> Validation Epoch: 26
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.595
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+>>>>>>>>>>> Test Epoch: 26
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.595
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+ current learn rate 0.0001
+epoch: 27 idx: 0 First Loss : 0.5062828063964844, Second Loss : 0.009851054288446903 
+>>>>>>>>>>> Validation Epoch: 27
+  First-Tier acc 0.574999988079071, precision 0.7142857313156128, recall 0.25, specificity 0.8999999761581421, F1 0.37037035822868347, AUC 0.59
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.64
+ 
+>>>>>>>>>>> Test Epoch: 27
+  First-Tier acc 0.574999988079071, precision 0.7142857313156128, recall 0.25, specificity 0.8999999761581421, F1 0.37037035822868347, AUC 0.59
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.64
+ 
+ current learn rate 0.0001
+epoch: 28 idx: 0 First Loss : 0.3853727877140045, Second Loss : 0.009495452046394348 
+>>>>>>>>>>> Validation Epoch: 28
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.6050000000000001
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+>>>>>>>>>>> Test Epoch: 28
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.6050000000000001
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+ current learn rate 0.0001
+epoch: 29 idx: 0 First Loss : 0.5851887464523315, Second Loss : 0.019004639238119125 
+>>>>>>>>>>> Validation Epoch: 29
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5974999999999999
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+>>>>>>>>>>> Test Epoch: 29
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5974999999999999
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+ current learn rate 0.0001
+epoch: 30 idx: 0 First Loss : 0.36808425188064575, Second Loss : 0.003875128459185362 
+>>>>>>>>>>> Validation Epoch: 30
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5974999999999999
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+>>>>>>>>>>> Test Epoch: 30
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5974999999999999
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+ current learn rate 0.0001
+epoch: 31 idx: 0 First Loss : 0.3485533893108368, Second Loss : 0.005721738561987877 
+>>>>>>>>>>> Validation Epoch: 31
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5974999999999999
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+>>>>>>>>>>> Test Epoch: 31
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5974999999999999
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+ current learn rate 0.0001
+epoch: 32 idx: 0 First Loss : 0.5864779949188232, Second Loss : 0.1216263622045517 
+>>>>>>>>>>> Validation Epoch: 32
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5975
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7200000000000002
+ 
+>>>>>>>>>>> Test Epoch: 32
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5975
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7200000000000002
+ 
+ current learn rate 0.0001
+epoch: 33 idx: 0 First Loss : 0.6989517211914062, Second Loss : 0.13930644094944 
+>>>>>>>>>>> Validation Epoch: 33
+  First-Tier acc 0.574999988079071, precision 0.800000011920929, recall 0.20000000298023224, specificity 0.949999988079071, F1 0.320000022649765, AUC 0.5900000000000001
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+>>>>>>>>>>> Test Epoch: 33
+  First-Tier acc 0.574999988079071, precision 0.800000011920929, recall 0.20000000298023224, specificity 0.949999988079071, F1 0.320000022649765, AUC 0.5900000000000001
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+ current learn rate 0.0001
+epoch: 34 idx: 0 First Loss : 0.5738965272903442, Second Loss : 0.004320810083299875 
+>>>>>>>>>>> Validation Epoch: 34
+  First-Tier acc 0.574999988079071, precision 0.800000011920929, recall 0.20000000298023224, specificity 0.949999988079071, F1 0.320000022649765, AUC 0.5925
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7200000000000002
+ 
+>>>>>>>>>>> Test Epoch: 34
+  First-Tier acc 0.574999988079071, precision 0.800000011920929, recall 0.20000000298023224, specificity 0.949999988079071, F1 0.320000022649765, AUC 0.5925
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7200000000000002
+ 
+ current learn rate 0.0001
+epoch: 35 idx: 0 First Loss : 0.6756274700164795, Second Loss : 0.0041597275994718075 
+>>>>>>>>>>> Validation Epoch: 35
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5975
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7600000000000001
+ 
+>>>>>>>>>>> Test Epoch: 35
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5975
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7600000000000001
+ 
+ current learn rate 0.0001
+epoch: 36 idx: 0 First Loss : 0.29824548959732056, Second Loss : 0.0017934442730620503 
+>>>>>>>>>>> Validation Epoch: 36
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5975
+  Second-Tier acc 0.699999988079071, precision 1.0, recall 0.4000000059604645, specificity 1.0, F1 0.5714285969734192, AUC 0.72
+ 
+>>>>>>>>>>> Test Epoch: 36
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5975
+  Second-Tier acc 0.699999988079071, precision 1.0, recall 0.4000000059604645, specificity 1.0, F1 0.5714285969734192, AUC 0.72
+ 
+ current learn rate 0.0001
+epoch: 37 idx: 0 First Loss : 0.49941033124923706, Second Loss : 0.06719490140676498 
+>>>>>>>>>>> Validation Epoch: 37
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.585
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+>>>>>>>>>>> Test Epoch: 37
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.585
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+ current learn rate 0.0001
+epoch: 38 idx: 0 First Loss : 0.3593802750110626, Second Loss : 0.00047922570956870914 
+>>>>>>>>>>> Validation Epoch: 38
+  First-Tier acc 0.574999988079071, precision 0.800000011920929, recall 0.20000000298023224, specificity 0.949999988079071, F1 0.320000022649765, AUC 0.595
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7200000000000002
+ 
+>>>>>>>>>>> Test Epoch: 38
+  First-Tier acc 0.574999988079071, precision 0.800000011920929, recall 0.20000000298023224, specificity 0.949999988079071, F1 0.320000022649765, AUC 0.595
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7200000000000002
+ 
+ current learn rate 0.0001
+epoch: 39 idx: 0 First Loss : 0.5664648413658142, Second Loss : 0.024146053940057755 
+>>>>>>>>>>> Validation Epoch: 39
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5900000000000001
+  Second-Tier acc 0.699999988079071, precision 1.0, recall 0.4000000059604645, specificity 1.0, F1 0.5714285969734192, AUC 0.72
+ 
+>>>>>>>>>>> Test Epoch: 39
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5900000000000001
+  Second-Tier acc 0.699999988079071, precision 1.0, recall 0.4000000059604645, specificity 1.0, F1 0.5714285969734192, AUC 0.72
+ 
+ current learn rate 0.0001
+epoch: 40 idx: 0 First Loss : 0.3483695685863495, Second Loss : 0.009402044117450714 
+>>>>>>>>>>> Validation Epoch: 40
+  First-Tier acc 0.574999988079071, precision 0.5555555820465088, recall 0.75, specificity 0.4000000059604645, F1 0.6382979154586792, AUC 0.595
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7600000000000001
+ 
+>>>>>>>>>>> Test Epoch: 40
+  First-Tier acc 0.574999988079071, precision 0.5555555820465088, recall 0.75, specificity 0.4000000059604645, F1 0.6382979154586792, AUC 0.595
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7600000000000001
+ 
+ current learn rate 0.0001
+epoch: 41 idx: 0 First Loss : 0.3846889138221741, Second Loss : 0.008548453450202942 
+>>>>>>>>>>> Validation Epoch: 41
+  First-Tier acc 0.574999988079071, precision 0.7142857313156128, recall 0.25, specificity 0.8999999761581421, F1 0.37037035822868347, AUC 0.59
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7600000000000001
+ 
+>>>>>>>>>>> Test Epoch: 41
+  First-Tier acc 0.574999988079071, precision 0.7142857313156128, recall 0.25, specificity 0.8999999761581421, F1 0.37037035822868347, AUC 0.59
+  Second-Tier acc 0.699999988079071, precision 0.75, recall 0.6000000238418579, specificity 0.800000011920929, F1 0.6666666865348816, AUC 0.7600000000000001
+ 
+ test auc: 0.7600000000000001, from epoch 41
+ current learn rate 0.0001
+epoch: 42 idx: 0 First Loss : 0.35434189438819885, Second Loss : 0.010117672383785248 
+>>>>>>>>>>> Validation Epoch: 42
+  First-Tier acc 0.574999988079071, precision 0.6000000238418579, recall 0.44999998807907104, specificity 0.699999988079071, F1 0.5142857432365417, AUC 0.5975
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+>>>>>>>>>>> Test Epoch: 42
+  First-Tier acc 0.574999988079071, precision 0.6000000238418579, recall 0.44999998807907104, specificity 0.699999988079071, F1 0.5142857432365417, AUC 0.5975
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+ test auc: 0.7600000000000001, from epoch 41
+ current learn rate 0.0001
+epoch: 43 idx: 0 First Loss : 0.2953597605228424, Second Loss : 0.0016108882846310735 
+>>>>>>>>>>> Validation Epoch: 43
+  First-Tier acc 0.574999988079071, precision 0.800000011920929, recall 0.20000000298023224, specificity 0.949999988079071, F1 0.320000022649765, AUC 0.5925
+  Second-Tier acc 0.699999988079071, precision 1.0, recall 0.4000000059604645, specificity 1.0, F1 0.5714285969734192, AUC 0.72
+ 
+>>>>>>>>>>> Test Epoch: 43
+  First-Tier acc 0.574999988079071, precision 0.800000011920929, recall 0.20000000298023224, specificity 0.949999988079071, F1 0.320000022649765, AUC 0.5925
+  Second-Tier acc 0.699999988079071, precision 1.0, recall 0.4000000059604645, specificity 1.0, F1 0.5714285969734192, AUC 0.72
+ 
+ test auc: 0.7600000000000001, from epoch 41
+ current learn rate 0.0001
+epoch: 44 idx: 0 First Loss : 0.6340325474739075, Second Loss : 0.0023334198631346226 
+>>>>>>>>>>> Validation Epoch: 44
+  First-Tier acc 0.574999988079071, precision 0.6666666865348816, recall 0.30000001192092896, specificity 0.8500000238418579, F1 0.4137931168079376, AUC 0.5874999999999999
+  Second-Tier acc 0.699999988079071, precision 1.0, recall 0.4000000059604645, specificity 1.0, F1 0.5714285969734192, AUC 0.72
+ 
+>>>>>>>>>>> Test Epoch: 44
+  First-Tier acc 0.574999988079071, precision 0.6666666865348816, recall 0.30000001192092896, specificity 0.8500000238418579, F1 0.4137931168079376, AUC 0.5874999999999999
+  Second-Tier acc 0.699999988079071, precision 1.0, recall 0.4000000059604645, specificity 1.0, F1 0.5714285969734192, AUC 0.72
+ 
+ test auc: 0.7600000000000001, from epoch 41
+ current learn rate 0.0001
+epoch: 45 idx: 0 First Loss : 0.4315280020236969, Second Loss : 0.036636460572481155 
+>>>>>>>>>>> Validation Epoch: 45
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5974999999999999
+  Second-Tier acc 0.699999988079071, precision 1.0, recall 0.4000000059604645, specificity 1.0, F1 0.5714285969734192, AUC 0.72
+ 
+>>>>>>>>>>> Test Epoch: 45
+  First-Tier acc 0.6000000238418579, precision 0.8333333134651184, recall 0.25, specificity 0.949999988079071, F1 0.38461539149284363, AUC 0.5974999999999999
+  Second-Tier acc 0.699999988079071, precision 1.0, recall 0.4000000059604645, specificity 1.0, F1 0.5714285969734192, AUC 0.72
+ 
+ test auc: 0.7600000000000001, from epoch 41
+ current learn rate 0.0001
+epoch: 46 idx: 0 First Loss : 0.3049858510494232, Second Loss : 0.006337071303278208 
+>>>>>>>>>>> Validation Epoch: 46
+  First-Tier acc 0.6000000238418579, precision 0.625, recall 0.5, specificity 0.699999988079071, F1 0.5555555820465088, AUC 0.6
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+>>>>>>>>>>> Test Epoch: 46
+  First-Tier acc 0.6000000238418579, precision 0.625, recall 0.5, specificity 0.699999988079071, F1 0.5555555820465088, AUC 0.6
+  Second-Tier acc 0.6000000238418579, precision 1.0, recall 0.20000000298023224, specificity 1.0, F1 0.3333333134651184, AUC 0.6799999999999999
+ 
+ test auc: 0.7600000000000001, from epoch 41
+ current learn rate 0.0001
+epoch: 47 idx: 0 First Loss : 0.11100582778453827, Second Loss : 0.04975048452615738 
+>>>>>>>>>>> Validation Epoch: 47
+  First-Tier acc 0.574999988079071, precision 0.5555555820465088, recall 0.75, specificity 0.4000000059604645, F1 0.6382979154586792, AUC 0.5850000000000001
+  Second-Tier acc 0.699999988079071, precision 1.0, recall 0.4000000059604645, specificity 1.0, F1 0.5714285969734192, AUC 0.72
+ 
+>>>>>>>>>>> Test Epoch: 47
+  First-Tier acc 0.574999988079071, precision 0.5555555820465088, recall 0.75, specificity 0.4000000059604645, F1 0.6382979154586792, AUC 0.5850000000000001
+  Second-Tier acc 0.699999988079071, precision 1.0, recall 0.4000000059604645, specificity 1.0, F1 0.5714285969734192, AUC 0.72
+ 
+ test auc: 0.7600000000000001, from epoch 41
+ current learn rate 0.0001
+epoch: 48 idx: 0 First Loss : 0.15379618108272552, Second Loss : 0.003699840744957328 
+>>>>>>>>>>> Validation Epoch: 48
+  First-Tier acc 0.574999988079071, precision 0.5555555820465088, recall 0.75, specificity 0.4000000059604645, F1 0.6382979154586792, AUC 0.5975
+  Second-Tier acc 0.699999988079071, precision 1.0, recall 0.4000000059604645, specificity 1.0, F1 0.5714285969734192, AUC 0.72
+ 
+>>>>>>>>>>> Test Epoch: 48
+  First-Tier acc 0.574999988079071, precision 0.5555555820465088, recall 0.75, specificity 0.4000000059604645, F1 0.6382979154586792, AUC 0.5975
+  Second-Tier acc 0.699999988079071, precision 1.0, recall 0.4000000059604645, specificity 1.0, F1 0.5714285969734192, AUC 0.72
+ 
+ test auc: 0.7600000000000001, from epoch 41
+ current learn rate 0.0001
+epoch: 49 idx: 0 First Loss : 0.3336299955844879, Second Loss : 0.0009682258241809905 
+>>>>>>>>>>> Validation Epoch: 49
+  First-Tier acc 0.574999988079071, precision 0.5555555820465088, recall 0.75, specificity 0.4000000059604645, F1 0.6382979154586792, AUC 0.5925
+  Second-Tier acc 0.699999988079071, precision 1.0, recall 0.4000000059604645, specificity 1.0, F1 0.5714285969734192, AUC 0.72
+ 
+>>>>>>>>>>> Test Epoch: 49
+  First-Tier acc 0.574999988079071, precision 0.5555555820465088, recall 0.75, specificity 0.4000000059604645, F1 0.6382979154586792, AUC 0.5925
+  Second-Tier acc 0.699999988079071, precision 1.0, recall 0.4000000059604645, specificity 1.0, F1 0.5714285969734192, AUC 0.72
+ 
+ test auc: 0.7600000000000001, from epoch 41

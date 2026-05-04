@@ -1,0 +1,7 @@
+Model,Dataset,AUC,Acc
+MaxS,Camelyon16,0.902,0.88
+MaxMinS,Camelyon16,0.915,0.89
+AFS,Camelyon16,0.908,0.88
+MAS,Camelyon16,0.895,0.87
+MaxMinS,TCGA Lung,0.94,0.92
+AFS,TCGA Lung,0.935,0.91
