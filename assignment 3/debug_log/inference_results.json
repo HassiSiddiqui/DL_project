@@ -1,0 +1,99 @@
+{
+  "model": "Proposed_SAM_PLIP",
+  "checkpoint": "debug_log/best_model.pth",
+  "test_slides": 10,
+  "auc": 0.8,
+  "accuracy": 0.8,
+  "results": [
+    {
+      "slide": "PCAM_Bag_5",
+      "true_label": 0,
+      "true_class": "Normal",
+      "tumor_prob": 0.81,
+      "normal_prob": 99.19,
+      "prediction": "Normal",
+      "correct": true
+    },
+    {
+      "slide": "PCAM_Bag_34",
+      "true_label": 0,
+      "true_class": "Normal",
+      "tumor_prob": 0.79,
+      "normal_prob": 99.21,
+      "prediction": "Normal",
+      "correct": true
+    },
+    {
+      "slide": "PCAM_Bag_6",
+      "true_label": 0,
+      "true_class": "Normal",
+      "tumor_prob": 1.84,
+      "normal_prob": 98.16,
+      "prediction": "Normal",
+      "correct": true
+    },
+    {
+      "slide": "PCAM_Bag_8",
+      "true_label": 0,
+      "true_class": "Normal",
+      "tumor_prob": 72.17,
+      "normal_prob": 27.83,
+      "prediction": "Tumor",
+      "correct": false
+    },
+    {
+      "slide": "PCAM_Bag_14",
+      "true_label": 0,
+      "true_class": "Normal",
+      "tumor_prob": 27.75,
+      "normal_prob": 72.25,
+      "prediction": "Normal",
+      "correct": true
+    },
+    {
+      "slide": "PCAM_Bag_15",
+      "true_label": 1,
+      "true_class": "Tumor",
+      "tumor_prob": 94.4,
+      "normal_prob": 5.6,
+      "prediction": "Tumor",
+      "correct": true
+    },
+    {
+      "slide": "PCAM_Bag_17",
+      "true_label": 1,
+      "true_class": "Tumor",
+      "tumor_prob": 0.52,
+      "normal_prob": 99.48,
+      "prediction": "Normal",
+      "correct": false
+    },
+    {
+      "slide": "PCAM_Bag_1",
+      "true_label": 1,
+      "true_class": "Tumor",
+      "tumor_prob": 99.12,
+      "normal_prob": 0.88,
+      "prediction": "Tumor",
+      "correct": true
+    },
+    {
+      "slide": "PCAM_Bag_7",
+      "true_label": 1,
+      "true_class": "Tumor",
+      "tumor_prob": 98.19,
+      "normal_prob": 1.81,
+      "prediction": "Tumor",
+      "correct": true
+    },
+    {
+      "slide": "PCAM_Bag_40",
+      "true_label": 1,
+      "true_class": "Tumor",
+      "tumor_prob": 96.87,
+      "normal_prob": 3.13,
+      "prediction": "Tumor",
+      "correct": true
+    }
+  ]
+}
