@@ -1,0 +1,46 @@
+# DTFD-MIL Project Configuration
+# ═══════════════════════════════════════════════════════════
+
+# Model Architecture
+model:
+  input_dim: 512          # PLIP ViT feature dimension
+  hidden_dim: 256         # mDim — attention hidden state
+  num_classes: 2          # 0=Normal, 1=Tumor
+  num_pseudobags: 5       # K — SAM K-Means clusters
+  attention_dim: 128      # D — gated attention bottleneck
+  dropout: 0.0
+
+# Training
+training:
+  epochs: 50
+  learning_rate: 0.0001
+  weight_decay: 0.0001
+  lr_step_epoch: 30       # epoch at which LR decays
+  lr_decay_ratio: 0.2
+  distillation: "AFS"     # AFS | MaxS | MaxMinS | MAS
+  num_group: 5            # pseudo-bags per slide
+  grad_clipping: 5.0
+
+# Data
+data:
+  train_pkl: "assignment 3/Dataset/mDATA_PCAM.pkl"
+  test_pkl:  "assignment 3/Dataset/mDATA_test_PCAM.pkl"
+  sample_csv: "data/sample_data.csv"
+  num_train_bags: 40
+  num_test_bags: 10
+  patches_per_bag: 20
+
+# Paths
+paths:
+  checkpoint_dir:  "checkpoints"
+  results_dir:     "results"
+  log_dir:         "assignment 3/debug_log"
+  figures_dir:     "assignment 3/figures"
+
+# Baseline (Assignment 2) — for comparison
+baseline:
+  input_dim: 1024         # ResNet-50 features
+  hidden_dim: 512
+  num_pseudobags: 4
+  dataset: "CAMELYON-16"
+  best_auc: 0.9619

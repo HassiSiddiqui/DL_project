@@ -1,8 +1,9 @@
-torch
-torchvision
-scikit-learn
+torch>=2.0
 numpy
+scikit-learn
 matplotlib
-tensorboard
-tqdm
-python-docx
+pyyaml
+torchinfo
+streamlit
+pandas
+pillow

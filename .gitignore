@@ -1,3 +1,23 @@
+# Virtual environment
+.venv/
+__pycache__/
+*.pyc
 
-Dataset/
-assignment 3/Dataset/
+# Large data files (keep PKL out of git)
+assignment 3/Dataset/*.pkl
+Dataset/*.pkl
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Streamlit cache
+.streamlit/
+
+# Temp
+scratch/
+*.egg-info/

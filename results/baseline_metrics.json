@@ -1,0 +1,11 @@
+{
+  "model": "Baseline_ResNet50_RandomSplit",
+  "dataset": "PCam_subset_40bags",
+  "auc": 0.552,
+  "accuracy": 0.45,
+  "f1": 0.42,
+  "hidden_dim": 512,
+  "input_dim": 1024,
+  "num_pseudobags": 4,
+  "note": "ResNet-50 ImageNet features with random pseudo-bag splitting"
+}

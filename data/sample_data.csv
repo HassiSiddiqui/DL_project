@@ -1,0 +1,9 @@
+slide_name,label,class,num_patches,feat_dim,feat_mean,feat_std
+PCAM_Bag_5,0,Normal,20,512,-0.0321,0.4856
+PCAM_Bag_34,0,Normal,20,512,-0.0338,0.4867
+PCAM_Bag_6,0,Normal,20,512,-0.0283,0.4586
+PCAM_Bag_8,0,Normal,20,512,-0.0091,0.5145
+PCAM_Bag_14,0,Normal,20,512,-0.0057,0.481
+PCAM_Bag_15,1,Tumor,20,512,-0.0188,0.4694
+PCAM_Bag_17,1,Tumor,20,512,-0.0405,0.484
+PCAM_Bag_1,1,Tumor,20,512,-0.0308,0.461

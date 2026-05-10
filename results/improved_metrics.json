@@ -1,0 +1,15 @@
+{
+  "model": "Proposed_SAM_PLIP",
+  "dataset": "PCam_subset_40bags",
+  "auc": 0.8,
+  "accuracy": 0.8,
+  "f1": 0.8,
+  "hidden_dim": 256,
+  "input_dim": 512,
+  "num_pseudobags": 5,
+  "note": "PLIP medical ViT features with SAM K-Means semantic pseudo-bag splitting",
+  "improvement_over_baseline": {
+    "auc": "+0.248",
+    "accuracy": "+0.350"
+  }
+}
